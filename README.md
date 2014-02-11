@@ -1,4 +1,5 @@
-# Thoughtworks Coding Challenge
+# Thoughtworks Code Challenge
+
 
 ## PROBLEM TWO: SALES TAXES
 ***
