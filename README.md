@@ -65,10 +65,11 @@ Output 3:
 - lineitem_spec.rb 
 - output_spec.rb 
 - receipt.rb  
-To run individual test 
+
+To run individual test: 
 `$ rspec spec/<filename>.rb` 
-To run all tests  
-`$ rspec` 
+
+To run all tests:  `$ rspec` 
 
 ### Design 
 Problem is broken down into 3 classes
