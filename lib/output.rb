@@ -1,4 +1,4 @@
 require_relative 'receipt'
 
-puts Receipt.new( ARGV[0] )
+puts Receipt.new( File.readlines(ARGV[0]) )
 
