@@ -2,8 +2,8 @@ require_relative 'lineitem'
 
 class Receipt    
 
-  def initialize array_of_line_items
-    @line_items = array_of_line_items.map{|text| LineItem.new(text.chomp("\n"))} 
+  def initialize lineitems
+    @line_items = lineitems
   end
 
   def to_s
