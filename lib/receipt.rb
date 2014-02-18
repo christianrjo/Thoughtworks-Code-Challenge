@@ -2,9 +2,8 @@ require_relative 'lineitem'
 
 class Receipt    
 
-  def initialize input_file
-    lines = File.readlines( input_file )
-    @line_items = lines.map{|text| LineItem.new(text.chomp("\n"))} 
+  def initialize lineitems
+    @line_items = lineitems
   end
 
   def to_s

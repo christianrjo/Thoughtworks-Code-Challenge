@@ -1,4 +1,6 @@
 require_relative 'receipt'
 
-puts Receipt.new( ARGV[0] )
+array_of_line_items = File.readlines(ARGV[0])
+lineitems = array_of_line_items.map{|text| LineItem.new(text.chomp("\n"))} 
+puts Receipt.new( lineitems )
 
